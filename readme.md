@@ -9,4 +9,4 @@ meteor:
 
 
   Remove:
-    standard-minifier-css
+    standard-minifier-css, insecure, autopublish

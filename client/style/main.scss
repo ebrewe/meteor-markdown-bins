@@ -1,6 +1,7 @@
 @import "{}/node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import 'mixins/app-vars';
-@import 'header';
+@import 'components/header';
+@import 'components/bins-list';
 
 body{
   background:#f5f5f5;
