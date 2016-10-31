@@ -23,6 +23,11 @@ Meteor.methods({
 
   'bins.remove': function(bin){
     return Bins.remove(bin);
+  },
+
+  'bins.update': function(bin, newContent){
+    return Bins.update(bin._id, {$set: {content: newContent} }); //mongo modifiers are back!
+    // if we change to (bin, content), can use es6: ...update(bin._id, {$set: {content}});
   }
 });
 

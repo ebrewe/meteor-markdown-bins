@@ -1,6 +1,5 @@
 .bins-container{
   @include make-md-column(8);
-  margin-top: 30px;
 
   .bin-item{
     @extend .clearfix;
