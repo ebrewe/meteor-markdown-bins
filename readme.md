@@ -5,7 +5,7 @@ npm:
 
 meteor:
   Add:
-    react-addons-pure-render-mixin, fourseven:scss, (after minifiers) seba:minifiers-autoprefixer, accounts-ui, accounts-password
+    react-addons-pure-render-mixin, fourseven:scss, (after minifiers) seba:minifiers-autoprefixer, accounts-ui, accounts-password, react-codemirror, markdown
 
 
   Remove:
