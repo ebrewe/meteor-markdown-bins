@@ -28,6 +28,10 @@ Meteor.methods({
   'bins.update': function(bin, newContent){
     return Bins.update(bin._id, {$set: {content: newContent} }); //mongo modifiers are back!
     // if we change to (bin, content), can use es6: ...update(bin._id, {$set: {content}});
+  },
+
+  'bins.share': function(bin, email){
+    return Bins.update(bin._id, { $push: {sharedWith: email} })
   }
 });
 

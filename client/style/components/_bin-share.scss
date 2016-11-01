@@ -1,0 +1,26 @@
+.bin-share{
+  display:flex;
+  align-items: center;
+  position:fixed;
+  width:100%;
+  bottom:0;
+  left:0;
+  padding:15px;
+  margin-top:30px;
+  background:$brand-primary;
+  //border:1px solid #d9d9d9;
+
+  .input-group{
+    @include make-md-column(4);
+  }
+
+  h4{
+    display:inline;
+    color:$color-white;
+  }
+  .shared-with{
+    .btn{
+      margin-lefT:10px;
+    }
+  }
+}

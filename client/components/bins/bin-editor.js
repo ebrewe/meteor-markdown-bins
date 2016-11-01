@@ -14,7 +14,7 @@ class BinEditor extends Component {
     }
     return(
       <div className="codeMirror-container">
-        <h5>Input</h5>
+        <h4>Input</h4>
         <CodeMirror
           onChange={(content)=>{this.handleEditorChange(content)}}
           options={{mode:'markdown', lineNumbers:true}}

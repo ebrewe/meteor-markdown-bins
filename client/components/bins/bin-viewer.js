@@ -9,7 +9,7 @@ class BinViewer extends Component {
     const rawHTML = markdown.toHTML(this.props.bin.content);
     return(
       <div className="bin-viewer">
-        <h5>Output</h5>
+        <h4>Output</h4>
         <div className="transpiled-output">
           <div dangerouslySetInnerHTML={{ __html: rawHTML }}></div>
         </div>

@@ -1,5 +1,6 @@
 .bins-container{
-  @include make-md-column(8);
+  @include make-md-column(6);
+  @include make-md-column-push(3);
 
   .bin-item{
     @extend .clearfix;
