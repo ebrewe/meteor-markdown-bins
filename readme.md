@@ -1,7 +1,7 @@
 added:
 
 npm:
-  react, react-dom, react-router, react-meteor-data, bootstrap-sass (after fourseven)
+  react, react-dom, react-router, react-meteor-data, bootstrap-sass (after fourseven), babel-runtime, babel-preset-react
 
 meteor:
   Add:
